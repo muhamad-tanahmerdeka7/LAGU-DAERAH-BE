@@ -9,4 +9,5 @@ class LaguDaerah extends Model
 {
     /** @use HasFactory<\Database\Factories\LaguDaerahFactory> */
     use HasFactory;
+    protected $fillable = ['judul', 'lagu', 'daerah'];
 }
